@@ -7,7 +7,7 @@ namespace MauiFirebaseDemo;
 
 public partial class MainPage : ContentPage
 {
-    FirebaseClient _firebase = new FirebaseClient("https://first-app-d2dd8-default-rtdb.firebaseio.com/");    
+    FirebaseClient _firebase = new FirebaseClient("MY_FIREBASE_REALTIME_DATABASE");    
     public ObservableCollection<TodoItem> TodoItems { get; set; } = new ObservableCollection<TodoItem>();
     
     public MainPage()
